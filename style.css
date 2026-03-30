@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.frame {
+    width: 100%;
+    height: 100vh;
+    border: none;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+.search_bar {
+    position: absolute;
+    top: 16px;
+    left: 16px;
+    width: 300px; /* TO'G'RILANDI */
+    z-index: 10; /* iframe ustiga chiqadi */
+    background-color: #F1F5F9;
+}
+
+.search {
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.search input {
+    width: 100%;
+    padding: 8px;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+}
